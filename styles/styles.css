@@ -1,0 +1,55 @@
+:root {
+    --black: #02010aff;
+    --paynes-gray: #19647eff;
+    --platinum: #e0e1ddff;
+    --carmine: #931621ff;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: var(--platinum);
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Lucida Console', monospace;
+    font-weight: bold;
+    color: var(--carmine);
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: var(--paynes-gray);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+input, button {
+    margin: 5px 0;
+}
+
+button {
+    background-color: var(--carmine);
+    color: var(--platinum);
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--black);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    section {
+        padding: 10px;
+    }
+}
