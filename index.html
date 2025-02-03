@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>SCCM TOOL KIT</h1>
+        <h1>SCCM TOOL KIT | HOME</h1>
     </header>
     <div class="main-container">
         <div class="sidebar">
@@ -21,10 +21,44 @@
             </nav>
         </div>
         <main>
-            <section id="weather-container">
-                <h3>Weather</h3>
-                <div id="weather"></div>
-            </section>
+            <div id="home-weather">
+
+                <section class="weather-cont-home">
+                    <h3>Local Weather</h3>
+                    <div id="weather-home">
+                        <p><span id="today"></span><br> <span id="time"></span> CST</p>
+                        <p><span id="current-temp"></span></p>
+                        <figure>
+                            <img id="weather-icon" src="#" alt="">
+                        </figure>
+                        <p><span id="desc"></span></p>
+                    </div>
+                    <div id="forecast-home">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th id="title-home" colspan="2" scope="colgroup">3-Day Forecast</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th id="day1"></th>
+                                    <td id="forecast1"></td>
+                                </tr>
+                                <tr>
+                                    <th id="day2"></th>
+                                    <td id="forecast2"></td>
+                                </tr>
+                                <tr>
+                                    <th id="day3"></th>
+                                    <td id="forecast3"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
 
             <section id="timer-container">
                 <h3>Timer</h3>
